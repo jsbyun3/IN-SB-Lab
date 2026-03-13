@@ -2,17 +2,31 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+# description: Course materials, schedules, and resources for classes taught.
 nav: true
 nav_order: 4
-calendar: true
+calendar: false #true->false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### 16164 일반미생물학 General Microbiology
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- Spring 2026
 
-{% include courses.liquid %}
+### 46546 생물데이터분석 Biological Data Analysis
+
+- Spring 2026
+
+### 24996 산업미생물학 Industrial Microbiology
+
+- Fall 2025
+
+### 19249 환경미생물학 Environmental Microbiology
+
+- Fall 2025
+
+### A9872  디지털헬스케어개론 Intro to Digital Healthcare
+
+- Fall 2025
 
 ---
 
