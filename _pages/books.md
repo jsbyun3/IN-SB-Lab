@@ -30,10 +30,10 @@ Daegu 42601, South Korea
 <div class="row">
   <div class="col-md-6">
     <h3>Address</h3>
-    <p>Backeun Hall, Room 254-1  
-    Department of Biological Sciences, Keimyung University  
-    1095 Dalgubeol-daero, Dalseo-gu  
-    Daegu 42601, South Korea  
+    <p>Backeun Hall, Room 254-1<br>
+    Department of Biological Sciences, Keimyung University<br>  
+    1095 Dalgubeol-daero, Dalseo-gu<br>
+    Daegu 42601, South Korea<br>
     </p>
     <p>백은관 254-1호  
     계명대학교 생명과학과  
