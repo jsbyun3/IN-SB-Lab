@@ -8,7 +8,7 @@ nav_order: 4
 calendar: false #true->false
 ---
 
-#### ** 16164 일반미생물학 General Microbiology**
+#### **16164 일반미생물학 General Microbiology**
 
 - Spring 2026
 <br>
