@@ -14,10 +14,10 @@ Our lab combines **neuroscience**, **biophysics**, and **systems biology** to un
 ---
 
 <div class="row items-center mb-5">
-  <div class="col-sm-2">
+  <div class="col-sm-3">
     <img src="{{ '/assets/img/2_1.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Dynamics Image">
   </div>
-  <div class="col-sm-10">
+  <div class="col-sm-9">
     <h3 class="title">Dynamics of Chemosensory Receptors</h3>
     <p class="font-italic">What is the principle of chemical sensing?</p>
     <p>We investigate how sensory information is encoded at the molecular interface. Our research focuses on the <strong>dynamics of ligand-receptor binding</strong> to understand how olfactory neurons encode fluctuating odor signals. We analyze how the binding kinetics of olfactory receptors constrain the system's ability to encode context-dependent information. By modeling these initial interactions, we aim to determine the fundamental limits of sensory encoding and how these constraints shape downstream neural processing.</p>
@@ -28,12 +28,12 @@ Our lab combines **neuroscience**, **biophysics**, and **systems biology** to un
 <br>
 
 <div class="row items-center mb-5">
-  <div class="col-sm-10">
+  <div class="col-sm-9">
     <h3 class="title">Olfactory Perception & Decision-Making 🪰👃</h3>
     <p class="font-italic">What forms our perception of a smell?</p>
     <p>Navigation is an active process shaped by <strong>odor value</strong> and context. We investigate the algorithms that allow <em>Drosophila</em> to make informed decisions in complex environments.By integrating <strong>quantitative behavioral experiments</strong> with <strong>Artificial Intelligence</strong>, we model how the brain integrates various navigational cues to guide movement. We are particularly interested in how the brain updates the "value" of an odor based on changing environmental contexts to drive decision-making.</p>
   </div>
-  <div class="col-sm-2">
+  <div class="col-sm-3">
     <img src="{{ '/assets/img/1_1.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Perception Image">
   </div>
 </div>
@@ -42,10 +42,10 @@ Our lab combines **neuroscience**, **biophysics**, and **systems biology** to un
 <br>
 
 <div class="row items-center mb-5">
-  <div class="col-sm-2">
+  <div class="col-sm-3">
     <img src="{{ '/assets/img/3_2.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Biological System Image">
   </div>
-  <div class="col-sm-10">
+  <div class="col-sm-9">
     <h3 class="title">Information Processing in Biological Systems</h3>
     <p class="font-italic">What makes biological networks robust?</p>
     <p>We use the olfactory system as a model to uncover universal principles of biological computation. Our goal is to understand how the <strong>structure</strong> of a network determines its <strong>function</strong> across different biological systems—from the large-scale connectomics of neural circuits to biochemical signaling pathways. We investigate the relationship between connectivity and neural dynamics, seeking to identify the topological motifs that ensure robust information processing and function.</p>
@@ -56,12 +56,12 @@ Our lab combines **neuroscience**, **biophysics**, and **systems biology** to un
 <br>
 
 <div class="row items-center mb-5">
-  <div class="col-sm-10">
+  <div class="col-sm-9">
     <h3 class="title"> Biological Algorithm Development</h3>
     <p class="font-italic">Software as a scientific output.</p>
     <p>Biological processes are complex and demand advanced software tools. We develop novel computational methods to interpret high-dimensional biological data, focusing on <strong>network inference</strong>, <strong>optimization</strong>, and <strong>clustering</strong>. Our research addresses the challenge of recovering underlying system structures from sparse experimental data. Additionally, we focus on enhancing model reuse and reproducibility in biological modeling through the development of industry-standard simulation tools.</p>
   </div>
-  <div class="col-sm-2">
+  <div class="col-sm-3">
     <img src="{{ '/assets/img/4_2.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Biological Algorithm Image">
   </div>
 </div>
