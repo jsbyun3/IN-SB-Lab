@@ -7,44 +7,65 @@ nav: true
 nav_order: 5
 ---
 
-{% if site.data.repositories.github_users %}
+![tellurium_logo.png](attachment:9f38708a-d160-4813-9894-409833679c7c:tellurium_logo.png)
 
-## GitHub users
+## Tellurium
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+An integrated Python-based environment for model building, simulation, and analysis. It allows researchers to write human-readable models in Antimony and simulate them instantly using the Python scientific stack. It features first-class support for community standards (SBML, SED-ML, COMBINE).
 
----
+To use:
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
+```jsx
+pip install tellurium
+```
 
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+[**[Github]**](https://github.com/sys-bio/tellurium) | [**[Documentation]**](https://tellurium.readthedocs.io/en/latest/)
 
----
+![libroadrunner_logo_tan.jpg](attachment:64c2ff29-3325-4907-bb21-a64ea3da4687:libroadrunner_logo_tan.jpg)
 
-{% endfor %}
-{% endif %}
-{% endif %}
+## libRoadRunner
 
-{% if site.data.repositories.github_repos %}
+A high-performance SBML simulation engine that uses LLVM JIT compilation to simulate massive biochemical networks in milliseconds. It supports deterministic (ODE), stochastic (Gillespie), and metabolic control analysis (MCA), and can be deployed as a standalone library for large-scale ensemble modeling.
 
-## GitHub Repositories
+To use:
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+```jsx
+pip install libroadrunner
+```
+
+[**[Github]**](https://github.com/sys-bio/roadrunner) | [**[Documentation]**](https://libroadrunner.readthedocs.io/en/latest/)
+
+## metaMEG
+
+A meta-modeling algorithm for biochemical reaction networks. It uses evolutionary algorithms to generate model ensembles from perturbation studies, allowing researchers to explore network topology and parameter space effectively to solve inverse problems.
+
+[[Github]](https://github.com/kirichoi/evoMEG)
+
+![phrasedml_logo.png](attachment:facad649-112b-4983-9082-41236fd62ccd:phrasedml_logo.png)
+
+## phraSED-ML
+
+A human-readable simulation setup language. It converts complex, XML-based simulation protocols (SED-ML) into a clean, paraphrased format, allowing users to describe simulation experiments and plotting instructions using simple text.
+
+To use:
+
+```jsx
+pip install phrasedml
+```
+
+[**[Github]**](https://github.com/sys-bio/roadrunner)
+
+## netplotlib
+
+A purely Python-based visualization tool for biochemical reaction networks. Built on NetworkX and Matplotlib, it enables the programmatic generation of publication-quality network diagrams directly from code or model files.
+
+To use:
+
+```jsx
+pip install netplotlib
+```
+
+[**[Github]**](https://github.com/kirichoi/netplotlib) | [**[Documentation]**](https://netplotlib.readthedocs.io/en/latest/)
 
 ---
 
