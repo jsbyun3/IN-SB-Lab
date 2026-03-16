@@ -15,31 +15,27 @@ nav_order: 5
 
 <p>An integrated Python-based environment for model building, simulation, and analysis. It allows researchers to write human-readable models in Antimony and simulate them instantly using the Python scientific stack. It features first-class support for community standards (SBML, SED-ML, COMBINE).</p>
 
-<div class="card p-3" style="background-color: #f8f9fa;">
-  <code>pip install tellurium</code>
-</div>
-
-<p>[<a href="#">Github</a>](https://github.com/sys-bio/tellurium) | [<a href="#">Documentation</a>](https://tellurium.readthedocs.io/en/latest/)</p>
-
-<!-- ![/assets/img/tellurium_logo.png](attachment:9f38708a-d160-4813-9894-409833679c7c:tellurium_logo.png)
+![/assets/img/tellurium_logo.png](attachment:9f38708a-d160-4813-9894-409833679c7c:tellurium_logo.png)
 
 ## Tellurium
 
 An integrated Python-based environment for model building, simulation, and analysis. It allows researchers to write human-readable models in Antimony and simulate them instantly using the Python scientific stack. It features first-class support for community standards (SBML, SED-ML, COMBINE). -->
 
-<!-- To use:
+To use:
 
 ```jsx
 pip install tellurium
 ```
 
-[**[Github]**](https://github.com/sys-bio/tellurium) | [**[Documentation]**](https://tellurium.readthedocs.io/en/latest/) -->
+[**[Github]**](https://github.com/sys-bio/tellurium) | [**[Documentation]**](https://tellurium.readthedocs.io/en/latest/)
 
-![/assets/img/libroadrunner_logo_tan.jpg](attachment:64c2ff29-3325-4907-bb21-a64ea3da4687:libroadrunner_logo_tan.jpg)
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="{{ '/assets/img/libroadrunner_logo_tan.jpg' | relative_url }}" style="width: 80px; height: auto;" alt="libRoadRunner Logo">
+  
+  <h2 style="margin: 0; border: none;">TlibRoadRunner</h2>
+</div>
 
-## libRoadRunner
-
-A high-performance SBML simulation engine that uses LLVM JIT compilation to simulate massive biochemical networks in milliseconds. It supports deterministic (ODE), stochastic (Gillespie), and metabolic control analysis (MCA), and can be deployed as a standalone library for large-scale ensemble modeling.
+<p>A high-performance SBML simulation engine that uses LLVM JIT compilation to simulate massive biochemical networks in milliseconds. It supports deterministic (ODE), stochastic (Gillespie), and metabolic control analysis (MCA), and can be deployed as a standalone library for large-scale ensemble modeling.</p>
 
 To use:
 
@@ -55,11 +51,14 @@ A meta-modeling algorithm for biochemical reaction networks. It uses evolutionar
 
 [[Github]](https://github.com/kirichoi/evoMEG)
 
-![/assets/img/phrasedml_logo.png](attachment:facad649-112b-4983-9082-41236fd62ccd:phrasedml_logo.png)
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="{{ '/assets/img/phrasedml_logo.png' | relative_url }}" style="width: 80px; height: auto;" alt="phraSED-ML Logo">
+  
+  <h2 style="margin: 0; border: none;">phraSED-ML</h2>
+</div>
 
-## phraSED-ML
-
-A human-readable simulation setup language. It converts complex, XML-based simulation protocols (SED-ML) into a clean, paraphrased format, allowing users to describe simulation experiments and plotting instructions using simple text.
+<p>A human-readable simulation setup language. It converts complex, XML-based simulation protocols (SED-ML) into a clean, paraphrased format, allowing users to describe simulation experiments and plotting instructions using simple text.
+</p>
 
 To use:
 
