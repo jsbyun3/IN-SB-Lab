@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-![tellurium_logo.png](attachment:9f38708a-d160-4813-9894-409833679c7c:tellurium_logo.png)
+![/assets/img/tellurium_logo.png](attachment:9f38708a-d160-4813-9894-409833679c7c:tellurium_logo.png)
 
 ## Tellurium
 
@@ -21,7 +21,7 @@ pip install tellurium
 
 [**[Github]**](https://github.com/sys-bio/tellurium) | [**[Documentation]**](https://tellurium.readthedocs.io/en/latest/)
 
-![libroadrunner_logo_tan.jpg](attachment:64c2ff29-3325-4907-bb21-a64ea3da4687:libroadrunner_logo_tan.jpg)
+![/assets/img/libroadrunner_logo_tan.jpg](attachment:64c2ff29-3325-4907-bb21-a64ea3da4687:libroadrunner_logo_tan.jpg)
 
 ## libRoadRunner
 
@@ -41,7 +41,7 @@ A meta-modeling algorithm for biochemical reaction networks. It uses evolutionar
 
 [[Github]](https://github.com/kirichoi/evoMEG)
 
-![phrasedml_logo.png](attachment:facad649-112b-4983-9082-41236fd62ccd:phrasedml_logo.png)
+![/assets/img/phrasedml_logo.png](attachment:facad649-112b-4983-9082-41236fd62ccd:phrasedml_logo.png)
 
 ## phraSED-ML
 
