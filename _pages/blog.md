@@ -5,15 +5,15 @@ title: news
 nav: true
 nav_order: 6
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+  sort_reverse: false
+  # trail:
+  #   before: 1 # The number of links before the current page
+  #   after: 3 # The number of links after the current page
 ---
 
 
