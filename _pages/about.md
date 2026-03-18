@@ -62,9 +62,37 @@ We develop novel computational methods for network inference, optimization, and 
 
 ### **📢 News**
 
-[제목 없음](https://www.notion.so/2e6aef7eb71680b7bf12ddb74ae41fb7?pvs=21)
+<div class="news">
+  <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+  {% if site.news != blank %}
+    <div class="row">
+      {% assign news_limit = 3 %} {% assign news = site.news | reverse %}
+      {% for item in news limit: news_limit %}
+        <div class="col-sm-4 mb-4">
+          <div class="card h-100" style="border-radius: 12px; border: 1px solid #e0e0e0; box-shadow: none;">
+            <div class="card-body d-flex flex-column p-4">
+              <h3 class="card-title" style="font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">
+                <a href="{{ item.url | relative_url }}" style="color: inherit;">{{ item.title }}</a>
+              </h3>
+              <p class="text-muted" style="font-size: 0.85rem;">{{ item.date | date: "%Y년 %1m월 %d일" }}</p>
+              <div class="card-text mt-2" style="font-size: 0.9rem; line-height: 1.5; color: #444;">
+                {{ item.content | strip_html | truncatewords: 20 }}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>아직 등록된 뉴스가 없습니다.</p>
+  {% endif %}
+</div>
 
-👉 [Click here to view previous lab news](https://www.notion.so/News-2e6aef7eb71680739767d93511490529?pvs=21)
+<p class="mt-2">
+  👉 <a href="{{ '/news/' | relative_url }}">Click here to view previous lab news</a>
+</p>
+
+👉 [Click here to view previous lab news](https://jsbyun3.github.io/IN-SB-Lab/news/index.html)
 
 ---
 
