@@ -56,7 +56,9 @@ We use olfaction as a model to uncover universal principles of biological comput
 **4. Biological Algorithm Development**  
 We develop novel computational methods for network inference, optimization, and clustering to interpret high-dimensional biological data.
 
-[👉 Click here to read more about our research](https://jsbyun3.github.io/IN-SB-Lab/research/)
+<p class="mt-2">
+  👉 <a href="{{ '/research/' | relative_url }}">Click here to read more about our research</a>
+</p>
 
 ---
 
@@ -89,7 +91,9 @@ We develop novel computational methods for network inference, optimization, and 
   {% endif %}
 </div>
 
-👉 [Click here to view previous lab news](https://jsbyun3.github.io/IN-SB-Lab/news/index.html)
+<p class="mt-2">
+  👉 <a href="{{ '/news/' | relative_url }}">Click here to view previous lab news</a>
+</p>
 
 ---
 
