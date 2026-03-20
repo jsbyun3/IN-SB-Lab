@@ -26,7 +26,7 @@ Before joining Keimyung University, he was awarded **Swartz Foundation Fellowshi
     <img src="{{ '/assets/img/github.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="GitHub"> GitHub
   </a> | 
   <a href="https://www.researchgate.net"> <img src="{{ '/assets/img/ResearcherGate.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="ResearcherGate"> ResearchGate</a> | 
-  <a href="https://twitter.com"> <img src="{{ '/assets/img/X.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="X"> X/twitter</a> | 
+  <a href="https://twitter.com"> <img src="{{ '/assets/img/Twitter.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="Twitter"> X/twitter</a> | 
   <a href="https://orcid.org"><img src="{{ '/assets/img/Orcid.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="Orcid"> ORCID</a> 
 </div>
   </div>
