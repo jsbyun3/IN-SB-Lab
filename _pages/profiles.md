@@ -21,7 +21,7 @@ Before joining Keimyung University, he was awarded **Swartz Foundation Fellowshi
     <br><br>
      <div style="font-size: 0.9em; display: flex; align-items: center; gap: 5px; flex-wrap: wrap;">
   ✉️ <a href="mailto:kirichoi@kmu.ac.kr">Email</a> |  
-  <a href="https://scholar.google.com">Google Scholar</a> |  
+  <a href="https://scholar.google.com"> <img src="{{ '/assets/img/google-scholar.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="google-scholar"> Google Scholar</a> |  
   <a href="https://github.com/kirichoi">
     <img src="{{ '/assets/img/github.png' | relative_url }}" style="width: 1.2em; vertical-align: middle; margin-right: 2px;" alt="GitHub"> GitHub
   </a> | 
