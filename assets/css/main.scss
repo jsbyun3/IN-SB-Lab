@@ -43,13 +43,20 @@
   align-items: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  /* 로고가 커질 때 네비바 전체 높이도 함께 조절되도록 설정 */
+  height: auto !important; 
 }
 
 .navbar-brand img {
-  height: 80px !important; /* 크기를 더 키우고 싶으면 50px로 하세요 */
+  /* 현재 80px보다 더 크게 (예: 120px) 설정하세요 */
+  height: 120px !important; 
   width: auto !important;
   margin-right: 12px !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   display: inline-block !important;
+  
+  /* 이미지가 너무 커서 깨지는 것을 방지 */
+  max-width: 100% !important; 
+  object-fit: contain !important;
 }
