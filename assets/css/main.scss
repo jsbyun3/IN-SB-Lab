@@ -40,13 +40,16 @@
 
 .navbar-brand {
   display: flex !important;
-  align-items: center !important; /* 로고와 글자의 높이를 수직 중앙으로 맞춤 */
+  align-items: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .navbar-brand img {
-  height: 40px !important; /* 로고 크기를 시원하게 키움 (원하는 대로 숫자 조절) */
+  height: 40px !important; /* 크기를 더 키우고 싶으면 50px로 하세요 */
   width: auto !important;
-  margin-right: 12px !important; /* 로고와 글자 사이 간격 확보 */
-  margin-top: 0 !important; /* 혹시 모를 위쪽 치우침 방지 */
-  vertical-align: middle !important;
+  margin-right: 12px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  display: inline-block !important;
 }
