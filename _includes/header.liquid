@@ -5,7 +5,7 @@
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {%- if site.icon -%}
-            <img src="{{ site.icon | relative_url }}" style="height: 40px; margin-right: 8px; vertical-align: middle; margin-top: -8px;">
+            <img src="{{ site.icon | relative_url }}" style="height: 35px; width: auto; margin-right: 10px; vertical-align: middle; margin-top: -4px;">
           {%- endif -%}
           {%- if site.title == 'blank' -%}
             {%- if site.first_name -%}
@@ -13,15 +13,10 @@
                 {{- site.first_name -}}
               </span>
             {%- endif -%}
-            {%- if site.middle_name -%}
-              {{- site.middle_name -}}
-            {%- endif -%}
-            {%- if site.last_name -%}
-              {{- site.last_name -}}
-            {%- endif -%}
           {%- else -%}
             {{- site.title -}}
           {%- endif -%}
+        </a>
         </a>
         <div class="navbar-brand social">{% social_links %}</div>
       {% endif %}
