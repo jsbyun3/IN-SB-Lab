@@ -38,8 +38,15 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important; /* 로고와 글자의 높이를 수직 중앙으로 맞춤 */
+}
+
 .navbar-brand img {
-  height: 50px !important;
-  width: auto;
-  margin-right: 10px;
+  height: 40px !important; /* 로고 크기를 시원하게 키움 (원하는 대로 숫자 조절) */
+  width: auto !important;
+  margin-right: 12px !important; /* 로고와 글자 사이 간격 확보 */
+  margin-top: 0 !important; /* 혹시 모를 위쪽 치우침 방지 */
+  vertical-align: middle !important;
 }
