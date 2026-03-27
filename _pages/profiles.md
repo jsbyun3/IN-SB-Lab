@@ -52,15 +52,33 @@ Before joining Keimyung University, he was awarded <b>Swartz Foundation Fellowsh
   </div>
 </div>
 <br><br>
+
 ## Junwoo Shin  | Undergraduate Student
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px;">
+  <!-- <img src="{{ '/assets/img/사진파일명' | relative_url }}" style="width: 150px; border-radius: 8px; flex-shrink: 0;" alt="Junwoo Shin"> -->
+
+  <div style="line-height: 1.6;">
+    Junwoo Shin is an undergraduate researcher at Keimyung University, majoring in Mathematics with a minor in Chemistry. Since joining the laboratory in January 2026, he has been studying Compressed Sensing and image reconstruction algorithms under the supervision of Professor Kiri Choi. His academic interests also include Graph Theory. He is a big supporter of Daegu FC and enjoys playing sports, watching games, and taking photographs with his Minolta X-300 film camera.
+    <br><br>
+  </div>
+</div>
 <br><br>
-## Jinseok Byun | Undergraduate Student
+## Gyumin Lee | Undergraduate Student
 <br><br>
 ## Dongheon Lee | Undergraduate Student
 <br><br>
-## Gyumin Lee   | undergraduate student
+## Hyunmin Ju   | undergraduate student
 <br><br>
-##
+## Seoyoung Kim   | undergraduate student
+<br><br>
+## Jieun Min   | undergraduate student
+<br><br>
+## Hyosang Bae   | undergraduate student
+<br><br>
+## Hojeong Shin   | undergraduate student
+<br><br>
+## Jinseok Byeon   | undergraduate student
+<br><br>
 
 ---
 
